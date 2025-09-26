@@ -1,10 +1,18 @@
 import './App.css'
+import Button from './component/button'
+import Heading from './component/heading'
+import Link from './component/links'
+import Paragraph from './component/paragraph'
 
 function App() {
 
   return (
     <>
-      <h1>Class vs Function Component</h1>
+      <Heading />
+      <Link />
+      <Paragraph />
+      <br />
+      <Button />
     </>
   )
 }
