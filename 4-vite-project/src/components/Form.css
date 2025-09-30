@@ -1,0 +1,27 @@
+.row{
+    margin: 10px;
+}
+
+.col{
+    margin-left: 25px;
+}
+
+.col-form-label{
+    margin-left: 15px;
+}
+
+.form-check{
+    margin: 15px;
+}
+
+.col-sm-10{
+    margin-left: 5px;
+}
+
+button{
+    margin-left: 20px;
+}
+
+.md-4{
+    margin-left: 30px;
+}
