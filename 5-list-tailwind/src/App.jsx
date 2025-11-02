@@ -2,7 +2,8 @@ import Heading from "./components/Heading"
 import List from "./components/List"
 
  function App() {
-  const studentArr = ["Abhishek", "Kajol", "Ravi", "Ajay", "Sanjay", "Shashi", "Sanjeev"]
+  // const studentArr = ["Abhishek", "Kajol", "Ravi", "Ajay", "Sanjay", "Shashi", "Sanjeev"]
+  let studentArr;
   return (
     <>
       <Heading></Heading>
