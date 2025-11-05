@@ -1,5 +1,5 @@
 const List = ({list}) => {
-    if (!list){
+    if (!list || list.length === 0){
         return <h2 className=" bg-red-300 rounded-3xl p-8 font-bold text-center">No students are enrolled.</h2>
     }
     
