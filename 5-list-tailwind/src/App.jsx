@@ -4,7 +4,7 @@ import Subheading from "./components/Subheading";
 
  function App() {
   const studentArr = ["Abhishek", "Kajol", "Ravi", "Ajay", "Sanjay", "Shashi", "Sanjeev"]
-  let studentArr2 = ["Ravi", "Amit"];
+  let studentArr2;
   const studentArr3 = ["Arushi", "Saniya", "Vipin", "Kartik", "Anmol"]
   return (
     <>
