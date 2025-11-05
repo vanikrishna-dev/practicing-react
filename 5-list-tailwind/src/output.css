@@ -552,10 +552,6 @@ video {
   list-style-type: decimal;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .rounded-3xl {
   border-radius: 1.5rem;
 }
