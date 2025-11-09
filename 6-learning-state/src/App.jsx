@@ -13,8 +13,7 @@ import List from "./components/List"
     const newArr = [...studentArr, event.target.value];
     event.target.value="";
     setStudentArr(newArr);
-    studentArr.push(event.target.value);
-    console.log(studentArr);
+    console.log(newArr );
     }
   }
 
