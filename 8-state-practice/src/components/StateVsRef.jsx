@@ -6,7 +6,7 @@ const StateVsRef = () => {
     
     const onStateClickHandler = () =>{
       console.log("State clicked");
-      setStateClick(stateClick+1);
+      setStateClick(currentVal => currentVal + 1);
     }
 
     const onRefClickHandler = () => {
