@@ -3,7 +3,7 @@ import Button from "./buttons";
 import './TodoItem.css';
 import { TodoContext } from "../store/TodoContext";
 
- const TodoItem = ({id, todoText, todoDate}) => {
+ const TodoItem = ({id, todoText, todoDate, todoTime}) => {
     const {deleteTodoItem} = useContext(TodoContext);
     return <div className="container d-flex p-1 ">
         <div className="row mx-auto flex-nowrap">
@@ -12,6 +12,9 @@ import { TodoContext } from "../store/TodoContext";
           </div>
           <div className="col-3">
             {todoDate}
+          </div>
+          <div className="col-3">
+            {todoTime}
           </div>
           <div className="col-2">
             <Button 

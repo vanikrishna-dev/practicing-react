@@ -8,11 +8,11 @@ export const TodoContextProvider = ({children}) => {
 
   const [todoItems, dispatch] = useReducer( TodoItemsReducer, initialTodoItems);
 
-  const addTodoItem = (todoText, todoDate) => {
+  const addTodoItem = (todoText, todoDate, todoTime) => {
     dispatch({
       type: 'ADD_ITEM',
       payload: {
-        todoText,todoDate
+        todoText,todoDate,todoTime
       }
      })
   }
